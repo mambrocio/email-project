@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@300;400&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@300;400;500&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400&display=swap';
+body {
+  background-color: #FBFAF8;
+}
+
+.test .format {
+  height: auto;
+  background-color: #D1F5FF;
+  padding: 60px;
+}
+.test select {
+  border: none;
+  background-color: transparent;
+}
+.test .top-section {
+  background-color: #FFE1A8;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.test .test-box {
+  background-color: #FBFAF8;
+  border-radius: 16px;
+  box-shadow: 13px 14px 0px 2px rgba(0, 96, 84, 0.86);
+  -webkit-box-shadow: 13px 14px 0px 2px rgba(0, 96, 84, 0.86);
+  -moz-box-shadow: 13px 14px 0px 2px rgba(0, 96, 84, 0.86);
+}
+.test #sourcecode {
+  border-radius: 12px;
+  resize: none;
+  width: 100%;
+  padding: 12px;
+  height: 500px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.test .prevButton {
+  height: 40px;
+  border-radius: 10px;
+  border-top: red;
+}
+.test .result-box {
+  background-color: #FBFAF8;
+  border-radius: 16px;
+  margin-left: 40px;
+  box-shadow: 13px 14px 0px 2px rgba(0, 96, 84, 0.86);
+  -webkit-box-shadow: 13px 14px 0px 2px rgba(0, 96, 84, 0.86);
+  -moz-box-shadow: 13px 14px 0px 2px rgba(0, 96, 84, 0.86);
+}
+.test .bottom-section {
+  background-color: #A63A50;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.test #emailAddress {
+  resize: none;
+  height: 40px;
+  padding: none;
+}
+.test #emailSubject {
+  resize: none;
+  height: 40px;
+}
+.test #emailMsg {
+  resize: none;
+  height: 200px;
+}
+.test .email-space {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */

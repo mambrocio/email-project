@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    </head>
+
+
+
+<body>
+    <section class="test columns is-full clearfix">
+        <div class="format column is-3">
+            <img src="assets/codebox logo.png">
+
+        <label for="group"> Choose a Group</label>
+        <br>
+        <select name="email-group" id="email-group">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            </select>
+        </div>
+    <div class="email-ground column is-9">
+        <div class="top-section columns">
+        <div class="test-box column is-4">
+            <form>
+                <h3>Template Code</h3>
+                    <textarea name="sourcecode" id="sourcecode">                
+                    </textarea>
+                    
+            </form>
+            <button class="column prevButton is-4" onclick="runcode();"><strong>Preview</strong></button> 
+        </div>
+        <div class="result-box column is-6">
+            <h3>Template Result</h3>
+            <iframe name="targetcode" id="targetcode"></iframe>
+        </div>
+    </div>
+        <form>
+            <textarea class="email-space column is-11"  id="emailAddress"></textarea>
+            <textarea class="email-space column is-11"  id="emailSubject"></textarea>
+            <textarea class="email-space column is-11"  id="emailMsg"></textarea>
+        </form>
+        <button><strong>Preview</strong></button> 
+    </section>
+</body>
+<script src="scripts.js/copyCompile.js" async></script>
+</html>
